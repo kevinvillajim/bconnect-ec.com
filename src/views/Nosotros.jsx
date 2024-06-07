@@ -19,7 +19,10 @@ export default function Nosotros() {
           </div>
         </a>
         <Header />
-        <BannerS img="nosotros.jpg" />
+        <BannerS
+          img="nosotros.jpg"
+          position="center"
+        />
         <div className="w-[100%] h-[100%] px-[15%] py-[2rem] mb-[40%]">
           <img
             className=""

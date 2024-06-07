@@ -6,6 +6,7 @@ import Trabajo from "./views/Trabajo";
 import Pantallas from "./views/Pantallas";
 import Ciberseguridad from "./views/Ciberseguridad";
 import Seguridad from "./views/Seguridad";
+import Tecnologia from "./views/Tecnologia";
 import "./App.css";
 
 function App() {
@@ -41,6 +42,10 @@ function App() {
           <Route
             path="/seguridad-electronica"
             element={<Seguridad />}
+          />
+          <Route
+            path="/tecnologia"
+            element={<Tecnologia />}
           />
           <Route
             path="/"

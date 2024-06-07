@@ -2,7 +2,7 @@ function Banner() {
   return (
     <>
       <div
-        className="w-screen h-screen bg-black"
+        className="w-screen h-screen bg-black bg-fixed"
         style={{
           backgroundImage: `url("banner-home.jpg")`,
           backgroundSize: "cover",

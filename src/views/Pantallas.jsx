@@ -21,7 +21,10 @@ export default function Pantallas() {
           </div>
         </a>
         <Header />
-        <BannerS img="nosotros.jpg" />
+        <BannerS
+          img="pantallas-banner.jpg"
+          position="center"
+        />
         <div className="w-[100%] h-[100%] px-[15%] py-[2rem] flex items-center justify-evenly">
           <img
             className="w-[30%]"

@@ -20,7 +20,10 @@ export default function Trabajo() {
           </div>
         </a>
         <Header />
-        <BannerS img="trabajo.jpg" />
+        <BannerS
+          img="trabajo.jpg"
+          position="center"
+        />
         <Rotulo text="Trabaja con nosotros" />
         <div className="mt-[3rem]">
           <p className="text-[15px] text-center">

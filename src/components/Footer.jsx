@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 export default function Footer({ text }) {
@@ -112,7 +111,3 @@ export default function Footer({ text }) {
     </>
   );
 }
-
-Footer.propTypes = {
-  text: PropTypes.element.isRequired,
-};

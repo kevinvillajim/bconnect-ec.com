@@ -20,7 +20,10 @@ export default function Contacto() {
           </div>
         </a>
         <Header />
-        <BannerS img="contactanos.jpg" />
+        <BannerS
+          img="contactanos.jpg"
+          position="center"
+        />
         <Rotulo text="Contáctanos" />
         <div className="mb-[3rem] pt-[2rem] px-[10%] flex gap-3">
           <iframe

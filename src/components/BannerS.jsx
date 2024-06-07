@@ -1,13 +1,14 @@
-export default function BannerS({ img }) {
+export default function BannerS({ img, position }) {
   return (
     <>
-      <div className="w-screen h-[15%] bg-fixed flex items-center justify-center">
-        <img
-          className="w-full h-full object-cover"
-          src={img}
-          alt="Banner"
-        />
-      </div>
+      <div
+        className="w-screen h-[25rem] flex items-center justify-center items-center bg-fixed"
+        style={{
+          backgroundImage: `url(${img})`,
+          backgroundSize: "cover",
+          backgroundPosition: `${position}`,
+        }}
+      ></div>
     </>
   );
 }

@@ -46,6 +46,13 @@ function Home() {
             boton="Ver más"
             url="/ciberseguridad"
           />
+          <Card
+            img="tecnologia.png"
+            title="Soluciones Tecnológicas"
+            content="Computadoras, Laptops, Tablets, Celulares, Periféricos y Gadgets"
+            boton="Ver más"
+            url="/tecnologia"
+          />
         </div>
         <div className="flex gap-[3rem] py-[3rem] justify-center">
           <iframe
@@ -56,7 +63,7 @@ function Home() {
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <iframe
             width="560"
@@ -66,7 +73,7 @@ function Home() {
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
         <div className="flex gap-[2rem] justify-center">
