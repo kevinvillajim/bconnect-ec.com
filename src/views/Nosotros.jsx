@@ -9,7 +9,7 @@ export default function Nosotros() {
       <div>
         <a
           id="whatsapp-link"
-          href="https://api.whatsapp.com/send?phone=593962966301&text=Buenas%20tardes."
+          href="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20deseo%20mas%20informaci%C3%B3n,%20vengo%20desde%20la%20p%C3%A1gina%20web."
           target="_blank"
         >
           <div id="whatsapp-btn">
@@ -23,7 +23,7 @@ export default function Nosotros() {
           img="nosotros.jpg"
           position="center"
         />
-        <div className="w-[100%] h-[100%] px-[15%] py-[2rem] mb-[40%]">
+        <div className="w-[100%] h-[100%] px-[15%] py-[2rem] mb-[5%]">
           <img
             className=""
             src="1.png"

@@ -11,7 +11,7 @@ export default function Seguridad() {
       <div>
         <a
           id="whatsapp-link"
-          href="https://api.whatsapp.com/send?phone=593962966301&text=Buenas%20tardes."
+          href="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20deseo%20mas%20informaci%C3%B3n,%20vengo%20desde%20la%20p%C3%A1gina%20web."
           target="_blank"
         >
           <div id="whatsapp-btn">
@@ -48,29 +48,29 @@ export default function Seguridad() {
             img="camaras.jpg"
             title="Cámaras de seguridad"
             content="Amplia gama de cámaras seguridad con inteligencia artificial, reconocimiento facial, cámaras infrarrojas de ultima generación."
-            boton="Ver video"
-            url="https://www.youtube.com/watch?v=vklrYdbxsN8"
+            boton="Cotizar"
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20C%C3%A1maras%20de%20seguridad"
           />
           <Card
             img="videop.jpg"
             title="Video porteros"
             content="Diseñados para brindar una experiencia de acceso segura cono reconocimiento facial, tarjeta y clave."
-            boton="Ver video"
-            url="https://www.youtube.com/watch?v=F0JefYSgxf8"
+            boton="Cotizar"
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20Video%20Porteros"
           />
           <Card
             img="alarma.jpg"
             title="Alarmas"
             content="Diseñadas para detectar, disuadir intrusos y alertarte ante cualquier situación de emergencia. Son la primera línea de defensa en tu sistema de seguridad."
-            boton="Ver video"
-            url="https://www.youtube.com/watch?v=KCHIpidIvhc"
+            boton="Cotizar"
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20alarmas"
           />
           <Card
             img="domotica.png"
             title="Domótica"
             content="Para el hogar empresa y negocios: control total sobre tu entorno, un espacio inteligente y personalizado."
             boton="Ver video"
-            url="https://www.youtube.com/watch?v=QhiWqTxCJx0"
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20Dom%C3%B3tica"
           />
         </div>
         <div className="w-[screen]">
@@ -87,7 +87,7 @@ export default function Seguridad() {
             </a>
           </div>
         </div>
-        <div className="mt-[40%]">
+        <div className="mt-[5%]">
           <Footer
             text={
               <div className="space-x-3">

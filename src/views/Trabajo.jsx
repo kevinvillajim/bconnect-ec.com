@@ -10,7 +10,7 @@ export default function Trabajo() {
       <div>
         <a
           id="whatsapp-link"
-          href="https://api.whatsapp.com/send?phone=593962966301&text=Buenas%20tardes."
+          href="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20deseo%20mas%20informaci%C3%B3n,%20vengo%20desde%20la%20p%C3%A1gina%20web."
           target="_blank"
         >
           <div id="whatsapp-btn">
@@ -45,7 +45,7 @@ export default function Trabajo() {
             </div>
           </a>
         </div>
-        <div className="mt-[50%]">
+        <div className="mt-[5%]">
           <Footer
             text={
               <div className="space-x-3">

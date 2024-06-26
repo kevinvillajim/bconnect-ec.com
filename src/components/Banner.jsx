@@ -1,8 +1,8 @@
-function Banner() {
+function Banner({ link }) {
   return (
     <>
       <div
-        className="w-screen h-screen bg-black bg-fixed"
+        className="w-screen h-screen bg-black bg-fixed banner"
         style={{
           backgroundImage: `url("banner-home.jpg")`,
           backgroundSize: "cover",
@@ -26,9 +26,11 @@ function Banner() {
             </p>
           </div>
           <div className="w-[2rem] h-[2rem] absolute bottom-1 flex justify-center">
-            <span className="material-symbols-outlined text-6xl text-[white] cursor-pointer text-center">
-              keyboard_arrow_down
-            </span>
+            <a href={link}>
+              <span className="material-symbols-outlined text-6xl text-[white] cursor-pointer text-center">
+                keyboard_arrow_down
+              </span>
+            </a>
           </div>
         </div>
       </div>

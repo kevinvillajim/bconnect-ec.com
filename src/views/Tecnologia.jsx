@@ -11,7 +11,7 @@ export default function Tecnologia() {
       <div>
         <a
           id="whatsapp-link"
-          href="https://api.whatsapp.com/send?phone=593962966301&text=Buenas%20tardes."
+          href="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20deseo%20mas%20informaci%C3%B3n,%20vengo%20desde%20la%20p%C3%A1gina%20web."
           target="_blank"
         >
           <div id="whatsapp-btn">
@@ -59,56 +59,56 @@ export default function Tecnologia() {
             title="Computadoras"
             content="Computadoras y laptops de todo presupuesto y generación"
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20computadoras"
           />
           <Card
             img="tablet.png"
             title="Tablets"
             content="Tablets de ultima generación y tecnología"
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20tablets"
           />
           <Card
             img="tv.webp"
             title="Pantallas"
             content="Videowalls, Monitores, TVs y Soportes moviles y fijos para todo tipo de pantallas y tamaños"
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20Pantallas"
           />
           <Card
             img="impresora.jpg"
             title="Impresoras"
             content="Impresoras a tinta, tinta continua, laser y de impacto"
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20impresoras"
           />
           <Card
             img="regulador.png"
             title="Reguladores de voltaje"
             content="Protectores de voltaje y reguladores de voltaje"
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20reguladores%20de%20voltaje"
           />
           <Card
             img="ups.png"
             title="UPS"
             content="Protección para tus equipos y reserva de energía en apagones"
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20UPS"
           />
           <Card
             img="webcam.jpg"
             title="Webcams"
             content="Camaras web de alta calidad y resolución para computadoras y salas de reuniones."
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20Webcams"
           />
           <Card
             img="perifericos.png"
             title="Perifericos"
             content="Mouse teclados y parlantes"
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20Perif%C3%A9ricos"
           />
         </div>
         <Rotulo text="Gadgets" />
@@ -118,19 +118,19 @@ export default function Tecnologia() {
             title="Power Banks"
             content="Power Banks de alta calidad y duración para todo tipo de dispositivos USB"
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20Powerbanks"
           />
           <Card
             img="audifonos.jpg"
             title="Audifonos"
             content="Audifonos de alta calidad de sonido."
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20Aud%C3%ADfonos"
           />
           <Card
             img="parlante.jpg"
             title="Parlantes"
-            content="Parlante inalambricos bluetooth para uso doméstico y empresarial para salas de reuniones"
+            content="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20Parlantes"
             boton="Cotizar"
             url=""
           />
@@ -139,24 +139,11 @@ export default function Tecnologia() {
             title="Cargadores USB"
             content="Todo tipo de cargadores de carga rápida para telefonos celulares y tablets"
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20Cargadores"
           />
         </div>
-        <div className="w-[screen]">
-          <div className="flex justify-center">
-            <a
-              className="flex justify-center"
-              href="https://api.whatsapp.com/message/ZMUMPHX37PTZK1?autoload=1&app_absent=0"
-              target="_blank"
-            >
-              <img
-                className="w-[35%]"
-                src="contacto-btn.jpg"
-              />
-            </a>
-          </div>
-        </div>
-        <div className="mt-[40%]">
+        <div className="w-[screen]"></div>
+        <div className="mt-[5%]">
           <Footer
             text={
               <div className="space-x-3">

@@ -11,7 +11,7 @@ export default function Ciberseguridad() {
       <div>
         <a
           id="whatsapp-link"
-          href="https://api.whatsapp.com/send?phone=593962966301&text=Buenas%20tardes."
+          href="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20deseo%20mas%20informaci%C3%B3n,%20vengo%20desde%20la%20p%C3%A1gina%20web."
           target="_blank"
         >
           <div id="whatsapp-btn">
@@ -59,49 +59,49 @@ export default function Ciberseguridad() {
             title="SOC"
             content="Centro de operaciones de seguridad gestionada de correlacionador de eventos (SIEM) y (SOAR)"
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20del%20SOC"
           />
           <Card
             img="dlp.webp"
             title="DLP"
             content="Prevención de fuga de documentos y archivos"
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20del%20DLP"
           />
           <Card
             img="network.jpg"
             title="Seguridad de red"
             content="Firewalls, IPS, IDS."
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20de%20Seguridad%20de%20redes"
           />
           <Card
             img="waf.png"
             title="WAF "
             content="Firewall de aplicaciones web que supervisa, filtra o bloquea el tráfico HTTP hacia y desde una aplicación web."
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%sobre%20WAF"
           />
           <Card
             img="pam.png"
             title="PAM"
             content="Gestión de acceso y sesión privilegiada. (Monitorea, audita y protege a los usuarios administradores y privilegiados)"
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%sobre%20PAM"
           />
           <Card
             img="antivirus.webp"
             title="Seguridad de endpoints:"
             content="Seguridad antivirus, antimalware con XDR y EDR."
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20de%20seguridad%20de%20endpoints"
           />
           <Card
             img="irm.png"
             title="IRM"
             content="Gestión de permisos de acceso a información, permite mantener el control de documentos sensibles aún fuera de la institución, cifra documentos y controla el acceso."
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%sobre%20IRM"
           />
         </div>
         <Rotulo text="Red Team: Seguridad Ofensiva" />
@@ -111,35 +111,35 @@ export default function Ciberseguridad() {
             title="Ethical Hacking"
             content=""
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%sobre%20Ethical%20Hacking"
           />
           <Card
             img="vulnerability.jpg"
             title="Escaneo de vulnerabilidades "
             content=""
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%sobre%20Escaneo%20de%20vulnerabilidades"
           />
           <Card
             img="pen.jpg"
             title="Pen testing"
             content=""
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%sobre%20Pentesting"
           />
           <Card
             img="lopdp.jpeg"
             title="Consultoría de cumplimiento de la LOPDP."
             content=""
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%sobre%20Conultorias%20Normativas"
           />
           <Card
             img="theat.webp"
             title="Cazeria de amenazas"
             content=""
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%sobre%20Cazeria%20de%20amenazas"
           />
           <Card
             img="ransom.png"
@@ -147,7 +147,7 @@ export default function Ciberseguridad() {
 "
             content=""
             boton="Cotizar"
-            url=""
+            url="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20remediaci%C3%B3n%20y%20respuesta%20de%20incidentes"
           />
         </div>
         <div className="w-[screen]">
@@ -164,7 +164,7 @@ export default function Ciberseguridad() {
             </a>
           </div>
         </div>
-        <div className="mt-[40%]">
+        <div className="mt-[5%]">
           <Footer
             text={
               <div className="space-x-3">

@@ -13,7 +13,7 @@ function Home() {
       <div className="w-screen">
         <a
           id="whatsapp-link"
-          href="https://api.whatsapp.com/send?phone=593962966301&text=Buenas%20tardes."
+          href="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20deseo%20mas%20informaci%C3%B3n,%20vengo%20desde%20la%20p%C3%A1gina%20web."
           target="_blank"
         >
           <div id="whatsapp-btn">
@@ -23,8 +23,14 @@ function Home() {
           </div>
         </a>
         <Header />
-        <Banner bgImg="banner-home.jpg" />
-        <div className="flex justify-center py-[1rem] gap-4">
+        <Banner
+          bgImg="banner-home.jpg"
+          link="#products"
+        />
+        <div
+          id="products"
+          className="flex justify-center py-[1rem] gap-4"
+        >
           <Card
             img="pantallas.png"
             title="Pantallas interactivas"
@@ -54,7 +60,10 @@ function Home() {
             url="/tecnologia"
           />
         </div>
-        <div className="flex gap-[3rem] py-[3rem] justify-center">
+        <div
+          className="flex gap-[3rem] py-[3rem] justify-center"
+          id="videos"
+        >
           <iframe
             width="560"
             height="315"
@@ -76,7 +85,10 @@ function Home() {
             allowFullScreen
           ></iframe>
         </div>
-        <div className="flex gap-[2rem] justify-center">
+        <div
+          className="flex gap-[2rem] justify-center"
+          id="imagenes"
+        >
           <Imgs img="carr1.jpeg" />
           <Imgs img="carr2.jpeg" />
           <Imgs img="carr3.jpeg" />
@@ -85,7 +97,10 @@ function Home() {
         <div className="my-[2rem]">
           <Rotulo text="Nuestros Aliados" />
         </div>
-        <div className="flex justify-center gap-[2rem]">
+        <div
+          className="flex justify-center gap-[2rem]"
+          id="aliados"
+        >
           <Aliados img="aliado.png" />
           <Aliados img="aliado1.png" />
           <Aliados img="aliado2.png" />

@@ -11,7 +11,7 @@ export default function Pantallas() {
       <div>
         <a
           id="whatsapp-link"
-          href="https://api.whatsapp.com/send?phone=593962966301&text=Buenas%20tardes."
+          href="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20deseo%20mas%20informaci%C3%B3n,%20vengo%20desde%20la%20p%C3%A1gina%20web."
           target="_blank"
         >
           <div id="whatsapp-btn">
@@ -83,7 +83,7 @@ export default function Pantallas() {
           <div className="flex justify-center">
             <a
               className="flex justify-center"
-              href="https://api.whatsapp.com/message/ZMUMPHX37PTZK1?autoload=1&app_absent=0"
+              href="https://api.whatsapp.com/send?phone=+593962966301&text=Buenas%20tardes,%20Deseo%20Informaci%C3%B3n%20sobre%20Pantallas%20Interactivas"
               target="_blank"
             >
               <img
@@ -119,7 +119,7 @@ export default function Pantallas() {
             </div>
           </div>
         </div>
-        <div className="mt-[50%]">
+        <div className="mt-[5%]">
           <Footer
             text={
               <div className="space-x-3">
