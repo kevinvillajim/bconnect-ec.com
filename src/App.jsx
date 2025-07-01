@@ -13,7 +13,8 @@ function App() {
 	return (
 		<>
 			{/* <ThemeProvider theme={theme}> */}
-			<Router basename="/bconnect-ec">
+			{/* <Router basename="/bconnect-ec"> */}
+			<Router>
 				<Routes>
 					<Route path="/home" element={<Home />} />
 					<Route path="/nosotros" element={<Nosotros />} />
